@@ -1,0 +1,76 @@
+@import 'reactflow/dist/style.css';
+@import 'reactflow/dist/base.css';
+
+.react-flow {
+  width: 100%;
+  height: 100%;
+}
+
+.react-flow__container {
+  width: 100%;
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.flow-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.react-flow__node {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.react-flow__node:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-flow__node-default {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background: #555;
+  border: 1px solid white;
+}
+
+.react-flow__edge-path {
+  stroke: #555;
+  stroke-width: 2;
+}
+
+.react-flow__node {
+  z-index: 5;
+}
+
+.react-flow__edge {
+  z-index: 4;
+}
+
+.react-flow__controls {
+  z-index: 10;
+}
+
+.react-flow__minimap {
+  z-index: 9;
+}
+
+.react-flow * {
+  user-select: none;
+}
+
+.react-flow input,
+.react-flow textarea {
+  user-select: text;
+}
