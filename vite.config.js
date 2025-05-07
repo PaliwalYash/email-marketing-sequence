@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:10000',
+        target: 'https://email-marketing-sequence-backend-3erg.onrender.com',
         changeOrigin: true,
       },
     },

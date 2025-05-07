@@ -10,7 +10,7 @@ function LeadSourceNode({ data }) {
   const [newListName, setNewListName] = useState('');
   const [showNewListForm, setShowNewListForm] = useState(false);
   
-  const API_URL = 'http://localhost:10000/api';
+  const API_URL = 'https://email-marketing-sequence-backend-3erg.onrender.com/api';
   
   const fetchLists = async () => {
     try {

@@ -14,7 +14,7 @@ import ColdEmailNode from './components/ColdEmailNode';
 import WaitNode from './components/WaitNode';
 import LeadSourceNode from './components/LeadSourceNode';
 
-const API_URL = 'http://localhost:10000/api';
+const API_URL = 'https://email-marketing-sequence-backend-3erg.onrender.com/api';
 
 const nodeTypes = {
   coldEmail: ColdEmailNode,
